@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -18,7 +19,8 @@
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "3.4.17",
-    "use-debounce": "^10.1.0",
+    "typescript": "5.7.3",
+    "use-debounce": "^10.0.4",
     "zod": "^3.25.17"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "eslint": "^8.57.1",
+    "eslint-config-next": "^16.1.6",
     "prettier": "^3.8.1",
     "prettier-eslint": "^16.4.2",
     "typescript": "5.7.3",
